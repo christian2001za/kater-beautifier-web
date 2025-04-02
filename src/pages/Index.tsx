@@ -28,7 +28,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center gap-16">
             <div className="md:w-1/2">
               <img 
-                src="/lovable-uploads/59188363-f34c-4ddf-a106-4ec3fbad4414.png" 
+                src="/lovable-uploads/Koningsdag%20Kater%20Water.PNG" 
                 alt="Kater Water product" 
                 className="w-full h-auto rounded-xl shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-500"
               />
