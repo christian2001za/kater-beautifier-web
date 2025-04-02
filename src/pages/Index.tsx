@@ -99,6 +99,35 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Waitlist Signup Section */}
+<section className="mt-32 bg-white py-16 px-4 border-t border-blue-100">
+  <div className="max-w-3xl mx-auto text-center space-y-6">
+    <h2 className="text-4xl font-bold text-blue-900">Op de hoogte blijven?</h2>
+    <p className="text-lg text-gray-700">
+      Laat je e-mailadres achter en we laten je weten zodra Kater Water beschikbaar is!
+    </p>
+    <form
+      action="https://formspree.io/f/mjkyagnk" // Replace with your real Formspree endpoint if needed
+      method="POST"
+      className="flex flex-col sm:flex-row items-center justify-center gap-4"
+    >
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="Jouw e-mailadres"
+        className="w-full sm:w-auto flex-1 border border-blue-300 rounded-full px-6 py-4 text-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+      />
+      <button
+        type="submit"
+        className="bg-blue-900 text-white rounded-full px-8 py-4 hover:bg-blue-800 text-lg font-semibold"
+      >
+        Aanmelden
+      </button>
+    </form>
+  </div>
+</section>
       
       {/* Testimonials Section */}
       <section className="py-20 bg-blue-900 text-white">
