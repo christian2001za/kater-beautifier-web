@@ -1,10 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
     <main className="flex flex-col min-h-screen">
-      {/* Hero Section with Full Screen Background */}
+      {/* Hero Section with Full Screen Background - No Text Overlay */}
       <section className="relative h-screen w-full overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center z-0" 
@@ -15,18 +14,9 @@ const Index = () => {
             height: "100vh"
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-10"></div>
+          {/* Removed the semi-transparent overlay */}
         </div>
-        <div className="relative z-10 flex items-center justify-center h-full text-white px-4">
-          <div className="text-center">
-            <h1 className="text-7xl md:text-9xl font-bold tracking-tighter mb-6">LOOPT WEL LOS</h1>
-            <div className="flex justify-center">
-              <Button className="bg-white text-blue-900 hover:bg-blue-100 rounded-full px-8 py-6 text-lg font-medium transition-all">
-                Ontdek Meer
-              </Button>
-            </div>
-          </div>
-        </div>
+        {/* Removed the text and button content div */}
       </section>
 
       {/* Product Description Section */}
