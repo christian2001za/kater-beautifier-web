@@ -50,12 +50,12 @@ const Index = () => {
               </p>
               <div className="pt-4 flex gap-4">
                 <Button className="bg-blue-900 text-white hover:bg-blue-800 rounded-full px-8 py-6"
-                  onClick={() => window.location.href = "/waitlist"} 
+               
                   >
                   Bestel Nu
                 </Button>
                 <Button variant="outline" className="border-blue-900 text-blue-900 hover:bg-blue-50 rounded-full px-8 py-6"
-                  onClick={() => window.location.href = "/waitlist"}
+              
                   >
                   Meer Informatie
                 </Button>
