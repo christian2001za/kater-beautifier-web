@@ -1,6 +1,10 @@
+
 import { Button } from "@/components/ui/button";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Index = () => {
+  const isMobile = useIsMobile();
+  
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero Section with Full Screen Background - No Text Overlay */}
@@ -8,7 +12,9 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center z-0" 
           style={{ 
-            backgroundImage: "url('/lovable-uploads/59188363-f34c-4ddf-a106-4ec3fbad4414.png')",
+            backgroundImage: isMobile 
+              ? "url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80')" 
+              : "url('/lovable-uploads/59188363-f34c-4ddf-a106-4ec3fbad4414.png')",
             backgroundSize: "cover", 
             backgroundPosition: "center",
             height: "100vh"
