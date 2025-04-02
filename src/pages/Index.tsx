@@ -12,7 +12,7 @@ const Index = () => {
           className="absolute inset-0 bg-cover bg-center z-0" 
           style={{ 
             backgroundImage: isMobile 
-              ? "url('/lovable-uploads/9184F9E8-15F6-4F37-AE66-ACA8998F7A3A copy.png')" 
+              ? "url('/lovable-uploads/9184F9E8-15F6-4F37-AE66-ACA8998F7A3A%copy.png')" 
               : "url('/lovable-uploads/59188363-f34c-4ddf-a106-4ec3fbad4414.png')",
             backgroundSize: "cover", 
             backgroundPosition: "center",
