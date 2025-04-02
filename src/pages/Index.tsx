@@ -13,7 +13,7 @@ const Index = () => {
           className="absolute inset-0 bg-cover bg-center z-0" 
           style={{ 
             backgroundImage: isMobile 
-              ? "url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&q=80')" 
+              ? "url('/lovable-uploads/50eef484-8cd2-431c-ace7-38b1efa54118.png')" 
               : "url('/lovable-uploads/59188363-f34c-4ddf-a106-4ec3fbad4414.png')",
             backgroundSize: "cover", 
             backgroundPosition: "center",
