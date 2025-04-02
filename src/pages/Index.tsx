@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -19,10 +18,8 @@ const Index = () => {
             backgroundPosition: "center",
             height: "100vh"
           }}
-        >
-          {/* Removed the semi-transparent overlay */}
-        </div>
-        {/* Removed the text and button content div */}
+        />
+        {/* No text or button content in this hero section */}
       </section>
 
       {/* Product Description Section */}
