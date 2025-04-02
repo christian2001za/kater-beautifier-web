@@ -36,16 +36,17 @@ const Index = () => {
             <div className="md:w-1/2 space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight">De Ultieme Kater Oplossing</h2>
               <p className="text-xl text-gray-700 leading-relaxed">
-                Kater Water is de premium drank tegen katers die je weer geweldig laat voelen. 
+                Kater Water is hét premium drankje tegen katers die je weer fris, scherp en goed laat voelen. Het is een heerlijk drankje
+                verpakt in een ijskoud blikje. Precies waar je zin in hebt.
                 Een zorgvuldig samengestelde mix van essentiële electrolyten, vitaminen, 
-                antioxidanten en gember die je lichaam helpt herstellen.
+                antioxidanten en gember die je lichaam snel helpt herstellen.
               </p>
               <p className="text-xl text-gray-700 leading-relaxed">
                 Onze unieke formule zorgt ervoor dat je snel hydrateert en de belangrijke 
-                voedingsstoffen aanvult die je lichaam nodig heeft na een avond uit.
+                voedingsstoffen aanvult die je lichaam nodig heeft na een avondje drinken.
               </p>
               <p className="text-xl font-semibold text-blue-800">
-                En het beste van alles? Het smaakt verrassend lekker!
+                En het beste van alles? Het smaakt fantastisch!
               </p>
               <div className="pt-4 flex gap-4">
                 <Button className="bg-blue-900 text-white hover:bg-blue-800 rounded-full px-8 py-6">
