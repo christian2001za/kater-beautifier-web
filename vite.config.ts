@@ -20,3 +20,13 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  base: '/', // ← change this if your domain is a subpath (but for custom domain, keep it as '/')
+  plugins: [react()],
+})
+
