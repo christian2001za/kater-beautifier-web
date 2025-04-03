@@ -45,11 +45,11 @@ const Index = () => {
                 Onze unieke formule zorgt ervoor dat je snel hydrateert en de belangrijke 
                 voedingsstoffen aanvult die je lichaam nodig heeft na een avondje drinken. 
               </p>
-              <p className="text-xl text-gray-700 leading-relaxed">
-                Kom bij ons langs op Koningsdag 2025 in de 9 straatjes! We zetten je weer helemaal goed.
-              </p>
               <p className="text-xl font-semibold text-blue-800">
                 En het beste van alles? Het smaakt fantastisch!
+              </p>
+               <p className="text-xl text-gray-700 leading-relaxed">
+                Kom bij ons langs op Koningsdag 2025 in de 9 straatjes! We zetten je weer helemaal goed.
               </p>
               <div className="pt-4 flex gap-4">
                 <Button className="bg-blue-900 text-white hover:bg-blue-800 rounded-full px-8 py-6"
