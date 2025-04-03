@@ -45,6 +45,9 @@ const Index = () => {
                 Onze unieke formule zorgt ervoor dat je snel hydrateert en de belangrijke 
                 voedingsstoffen aanvult die je lichaam nodig heeft na een avondje drinken. 
               </p>
+              <p className="text-xl text-gray-700 leading-relaxed">
+                Kom bij ons langs op Koningsdag 2025 in de 9 straatjes! We zetten je weer helemaal goed.
+              </p>
               <p className="text-xl font-semibold text-blue-800">
                 En het beste van alles? Het smaakt fantastisch!
               </p>
