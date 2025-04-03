@@ -156,7 +156,7 @@ const Index = () => {
             <a href="#" className="text-blue-900 hover:text-blue-700">Facebook</a>
             <a href="#" className="text-blue-900 hover:text-blue-700">Contact</a>
           </div>
-          <p className="text-sm text-gray-500">© 2023 Kater Water. Alle rechten voorbehouden.</p>
+          <p className="text-sm text-gray-500">© 2025 Kater Water. Alle rechten voorbehouden.</p>
         </div>
       </footer>
     </main>
